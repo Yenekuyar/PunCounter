@@ -1,5 +1,5 @@
 body {
-    margin-top: 5em;
+    margin-top: em;
     background-color: black;
 }
 
@@ -19,7 +19,7 @@ body {
 .titulo {
     display: inline-block;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 34%;
     color: white;
     border-style: outset;
     padding: 0.2em;
@@ -30,29 +30,34 @@ body {
     display: block;
     background-color: rgb(250, 139, 219);
     text-align: center;
-    margin: 3em;
-    padding: 8em;
-    width: 100%;
+    padding: 4em;
+    width: 10%;
+    margin: 2em 0 2em 35%;
     border-radius: 50%;
     font-size: large;
     font-weight: 900;
 }
 
 .botao {
-    margin-right: 1em;
-    padding: 2em;
+    padding: 4em;
+    width: 20%;
     border-radius: 50%;
-    width: 50%;
+    margin: 1em 0 1em 10em;
     border-color: white;
 }
 
 .limpa {
-    padding: 2em;
+    padding: 4em;
     border-radius: 50%;
-    width: 50%;
+    margin: 0 0 0 20em;
+    width: 20%;
     border-color: white;
 }
 
-.botao::after {
+.botao:active {
+    background-color: blueviolet;
+}
+
+.limpa:active {
     background-color: blueviolet;
 }
