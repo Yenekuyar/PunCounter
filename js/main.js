@@ -20,6 +20,8 @@ limpar.addEventListener("click", () =>{
     document.querySelector("#contador").innerHTML = counter
 
     localStorage.setItem("quantidade", counter)
+
+    //:)
 })
 
 
