@@ -1,0 +1,56 @@
+body {
+    margin-top: 5em;
+    background-color: black;
+}
+
+
+.painel {
+    display: inline-block;
+    background-color: rgb(210, 128, 128);
+    padding: 5em;
+    width: 50%;
+    margin-left: 20%;
+    border-style: double;
+    border-radius: 7em;
+    border-width: 1em;
+    border-color: brown;
+}
+
+.titulo {
+    display: inline-block;
+    text-align: center;
+    margin-left: 25%;
+    color: white;
+    border-style: outset;
+    padding: 0.2em;
+    font-weight: bolder;
+}
+
+.contador {
+    display: block;
+    background-color: rgb(250, 139, 219);
+    text-align: center;
+    margin: 3em;
+    padding: 8em;
+    width: 10%;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: 900;
+}
+
+.botao {
+    margin-right: 1em;
+    padding: 2em;
+    border-radius: 50%;
+    border-color: white;
+}
+
+.limpa {
+    padding: 2em;
+    border-radius: 50%;
+    border-color: white;
+}
+
+.botao::after {
+    background-color: blueviolet;
+}
