@@ -21,7 +21,6 @@ limpar.addEventListener("click", () =>{
 
     localStorage.setItem("quantidade", counter)
 
-    //:)
 })
 
 

@@ -32,7 +32,7 @@ body {
     text-align: center;
     margin: 3em;
     padding: 8em;
-    width: 10%;
+    width: 100%;
     border-radius: 50%;
     font-size: large;
     font-weight: 900;
@@ -42,12 +42,14 @@ body {
     margin-right: 1em;
     padding: 2em;
     border-radius: 50%;
+    width: 50%;
     border-color: white;
 }
 
 .limpa {
     padding: 2em;
     border-radius: 50%;
+    width: 50%;
     border-color: white;
 }
 
